@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="126668" started-at="2019-06-22T13:12:21Z" finished-at="2019-06-22T13:14:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="126668" started-at="2019-06-22T13:12:21Z" finished-at="2019-06-22T13:14:28Z">
+      <class name="com.makemytrip.qa.testcases.SearchPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.makemytrip.qa.testcases.SearchPageTest@5622fdf]" name="setUp" is-config="true" duration-ms="55610" started-at="2019-06-22T13:12:21Z" finished-at="2019-06-22T13:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="priceComparisonTest()[pri:1, instance:com.makemytrip.qa.testcases.SearchPageTest@5622fdf]" name="priceComparisonTest" duration-ms="19774" started-at="2019-06-22T13:13:17Z" finished-at="2019-06-22T13:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceComparisonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.makemytrip.qa.testcases.SearchPageTest@5622fdf]" name="tearDown" is-config="true" duration-ms="982" started-at="2019-06-22T13:13:37Z" finished-at="2019-06-22T13:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.makemytrip.qa.testcases.SearchPageTest@5622fdf]" name="setUp" is-config="true" duration-ms="49152" started-at="2019-06-22T13:13:38Z" finished-at="2019-06-22T13:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="checkTotalPrice()[pri:2, instance:com.makemytrip.qa.testcases.SearchPageTest@5622fdf]" name="checkTotalPrice" duration-ms="8" started-at="2019-06-22T13:14:27Z" finished-at="2019-06-22T13:14:27Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.makemytrip.qa.pages.SearchPage.getIntPriceValues(SearchPage.java:116)
+at com.makemytrip.qa.testcases.SearchPageTest.checkTotalPrice(SearchPageTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTotalPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.makemytrip.qa.testcases.SearchPageTest@5622fdf]" name="tearDown" is-config="true" duration-ms="800" started-at="2019-06-22T13:14:27Z" finished-at="2019-06-22T13:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.makemytrip.qa.testcases.SearchPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
