@@ -65,9 +65,9 @@ public class LoginPage extends TestBase {
 		toField.click();
 		toInputText.sendKeys("Bangalore");
 		toInputText.click();
+		departField.click();
 
 		// Selecting calendar dates
-		departField.click();
 		Calendar cal = Calendar.getInstance();
 		cal.add(Calendar.DATE, 1);
 		String todayDate = sdf.format(cal.getTime());
